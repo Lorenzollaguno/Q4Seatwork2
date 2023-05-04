@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+	 <meta name="vieport" content="width=device-width,initial-scale1">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+	 <title>Q4 Seatwork 2</title>
+
+  <style type="text/css">
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+
+	 <style>
+
+    table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+body {
+  background-image: url('sorry real replacement maan I hope I dont get replaced.png');
+    background-repeat: no-repeat;
+}
+</style>
+
+<style>
+table, th, td {
+  border: 1px solid darkred;
+}
+</style>
+
+<style>
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+</style>
+</head>
+</head>
+<h1 class="text-white bg-dark"> time and temp on your location</h1>
+<body > 
+
+
+
+  <div class="container class text-white bg-dark">
+  <div class="row">
+    <div class="col-sm">
+      celsuius to Farenhiet
+
+
+<div>
+        <td> <p>
+    <label>Temp</label>
+    <input id="inputFeet1" type="number" placeholder="Temp" oninput="LengthConverter1(this.value)" onchange="LengthConverter1(this.value)">
+   </p>
+ 
+  <script>
+  function LengthConverter1(valNum) {
+  document.getElementById("outputYards").innerHTML=valNum*33.8;
+  }
+
+
+  </script></td>
+        <td><p>Farenhiet <span id="outputYards"></span></p></td>
+        </div>
+
+    </div>
+    <div class="col-sm">
+      Farenhiet to celsius
+      <div>
+        <td> <p>
+    <label>Temp</label>
+    <input id="inputFeet2" type="number" placeholder="Temp" oninput="LengthConverter2(this.value)" onchange="LengthConverter2(this.value)">
+   </p>
+ 
+  <script>
+  function LengthConverter2(valNum) {
+  document.getElementById("outputYards1").innerHTML=valNum*-17.2222;
+  }
+
+
+  </script></td>
+        <td><p>celsius <span id="outputYards1"></span></p></td>
+        </div> 
+    </div>
+    <div class="col-sm">
+      Time :
+
+      <div>
+<p style="background-image: url('walpaper asset.jpg');"></p>
+<p id="today" class="text secondary "></p>
+
+<script>
+const date = new Date();
+document.getElementById("today").innerHTML= date;
+
+</script>
+<div>
+    </div>
+  </div>
+</div>
+
+
+
+<table>
+  <tr>
+    <th>Cel</th>
+    <th>Faren</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td class="text-dark">13.0</td>
+    <td class="text-dark">55.4</td>
+    <td class="text-dark">pretty cold in there thats freezing temperature  in the Philippines.</td>
+  </tr>
+      <td>26.6 C - 28.3 C</td>
+    <td>26.6 F - 82.94 F</td>
+    <td>room temperature. Its normal. </td>
+  </tr>
+
+  <tr>
+    <td class="text-dark">100 </td>
+    <td class="text-dark">212</td>
+    <td class="text-dark">Thats boiling point for you.</td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+</p>	
+</body>
+</html>
